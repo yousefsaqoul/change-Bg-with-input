@@ -1,0 +1,45 @@
+.nachricht {
+  background-color: lightblue;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nachricht form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 50%;
+  height: 300px;
+  border-radius: 40px;
+}
+.nachricht form label {
+  color: tomato;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-family: "Helvetica Neue";
+}
+#my-color {
+  width: 250px;
+  height: 30px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+#my-color:active {
+  background-color: lightgrey;
+}
+#colorButton {
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 200px;
+  height: 25px;
+  border: none;
+  background-color: rgb(179, 233, 80);
+  cursor: cell;
+}
+#colorButton:active {
+  background-color: rgb(236, 109, 109);
+}
